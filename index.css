@@ -1,0 +1,110 @@
+body {
+    font-family: "Trebuchet MS", Georgia, sans-serif;
+    font-size: 16px;
+    background-color: transparent; 
+    color: #696969;
+    padding: 3px;
+}
+
+h1 {
+    font-family: Georgia, serif;
+    border-bottom: 3px solid grey;
+    color: black;
+    font-size: 30px;
+    text-align: center;
+}
+ 
+h3{
+	color: red;
+	margin-left: 20px;
+	text-align: center;
+}
+
+#main {
+    padding: 5px;
+    padding-left:  15px;
+    padding-right: 15px;
+    background-color: #ffffff;
+    border-radius: 0 0 5px 5px;
+}
+
+p { 
+color: black;
+margin-right: 20px;
+font-size: 13px;
+}
+
+
+ul#menu {
+    padding: 0;
+    margin-bottom: 11px;
+}
+
+ul#menu li {
+    display: inline;
+    margin-right: 3px;
+}
+
+ul#menu li a {
+    background-color: #ffffff;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #696969;
+    border-radius: 4px 4px 0 0;
+}
+
+ul#menu li a:hover {
+    color: white;
+    background-color: black;
+}
+div.img {
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid #0000ff;
+    height: auto;
+    width: auto;
+    float: left;
+    text-align: center;
+}
+
+div.img img {
+    display: inline;
+    margin: 5px;
+    border: 1px solid #ffffff;
+}
+
+div.img a:hover img {
+    border:1px solid #0000ff;
+}
+
+div.desc {
+    text-align: center;
+    font-weight: normal;
+    width: 120px;
+    margin: 5px;
+}
+
+ul{
+    font-style: 13px;
+}
+
+li{
+    font-style: 13px;
+}
+
+div#leftcol {
+    float:left ;
+    width: 50%;
+
+    
+}
+div#rightcol{
+    float: left;
+    width: 50%;
+
+}
+
+article{
+    padding: 5px;
+}
+
